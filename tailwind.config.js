@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				mainFont: "Pacifico	",
+				mainFont: "Pacifico",
 			},
 		},
 	},
