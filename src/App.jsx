@@ -2,6 +2,7 @@ import "./App.css";
 import { motion } from "framer-motion";
 import { YesModal } from "./components/YesModal";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
 	const [openModal, setOpenModal] = useState(false);
@@ -16,6 +17,7 @@ function App() {
 
 	return (
 		<>
+			<Analytics />
 			<div className="bg-gradient-to-r from-pink-500 to-rose-500 h-screen flex items-center justify-center relative overflow-hidden">
 				{openModal ? (
 					<div className="flex items-center justify-center z-50">
