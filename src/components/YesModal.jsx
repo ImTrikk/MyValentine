@@ -11,12 +11,12 @@ export const YesModal = ({ closeButton }) => {
 				initial={{ opacity: 0, scale: 0.5 }}
 				animate={{ opacity: 1, scale: 1 }}
 				transition={{ duration: 0.5 }}
-				className={`fixed z-40 top-0 left-0 w-full h-screen flex items-center backdrop-filter backdrop-blur-sm justify-center `}>
-				<div className="w-[800px] h-fit bg-white px-10 py-4 rounded">
+				className={`fixed z-40 md:top-0 left-0 w-full h-screen flex items-center backdrop-filter backdrop-blur-sm justify-center overflow-y-scroll`}>
+				<div className="md:w-[800px] h-fit bg-white px-2 md:px-10 py-4 rounded overflow-y-scroll">
 					<div className="absolute">
 						<img src="/images/leftHeart.png" alt="" className="opacity-10" />
 					</div>
-					<h1 className="font-mainFont text-2xl">My Dearest Crush,</h1>
+					<h1 className="font-mainFont text-2xl pt-96 md:pt-0">My Dearest Crush,</h1>
 					<p className="font-mainFont text-lg indent-5 pt-4 text-justify">
 						As I sit down to pen this letter, my heart swells with the warmth your
 						presence brings into my life. In every shared smile, stolen glance, and

@@ -69,11 +69,11 @@ function App() {
 								repeat: Infinity,
 								repeatType: "reverse",
 							}}>
-							<h1 className="font-mainFont text-8xl font-semibold text-white m-0">
+							<h1 className="font-mainFont text-5xl md:text-8xl font-semibold text-white m-0">
 								Hi Crush!!!
 							</h1>
 						</motion.div>
-						<div className="w-[500px] pt-4 m-0">
+						<div className=" md:w-[500px] pt-4 m-0">
 							<h1 className="font-mainFont font-light text-2xl text-white">
 								Would you like to become my valentine this coming February 14, 2024?
 							</h1>
