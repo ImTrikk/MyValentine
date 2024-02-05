@@ -67,22 +67,22 @@ function App() {
 								repeat: Infinity,
 								repeatType: "reverse",
 							}}>
-							<h1 className="font-mainFont text-9xl font-semibold text-white m-0">
+							<h1 className="font-mainFont text-8xl font-semibold text-white m-0">
 								Hi Crush!!!
 							</h1>
 						</motion.div>
-						<div className="w-[600px] pt-2 m-0">
-							<h1 className="font-mainFont text-5xl text-white">
+						<div className="w-[500px] pt-4 m-0">
+							<h1 className="font-mainFont font-light text-2xl text-white">
 								Would you like to become my valentine this coming February 14, 2024?
 							</h1>
 						</div>
 						<div className="flex gap-2 items-center justify-center pt-3">
 							<button
 								onClick={yesButtton}
-								className="w-[90px] h-[50px] text-3xl flex items-center justify-center bg-white text-pink-500 font-semibold rounded font-mainFont transform transition-transform hover:scale-110 z-40">
+								className="w-[90px] h-[50px] text-lg flex items-center justify-center bg-white text-pink-500 font-semibold rounded font-mainFont transform transition-transform hover:scale-110 z-40">
 								Yes
 							</button>
-							<button className="w-[90px] h-[50px] text-3xl flex items-center justify-center bg-red-600 text-white font-semibold rounded font-mainFont hover:-translate-y-72 transform transition-transform ease-in-out duration-300 z-40">
+							<button className="w-[90px] h-[50px] text-lg flex items-center justify-center bg-red-600 text-white font-semibold rounded font-mainFont hover:-translate-y-72 transform transition-transform ease-in-out duration-300 z-40">
 								No
 							</button>
 						</div>

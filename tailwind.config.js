@@ -4,10 +4,9 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				"mainFont": 'valentine'
-			}
+				mainFont: "Pacifico	",
+			},
 		},
 	},
 	plugins: [],
 };
-

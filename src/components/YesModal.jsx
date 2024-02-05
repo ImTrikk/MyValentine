@@ -12,12 +12,12 @@ export const YesModal = ({ closeButton }) => {
 				animate={{ opacity: 1, scale: 1 }}
 				transition={{ duration: 0.5 }}
 				className={`fixed z-40 top-0 left-0 w-full h-screen flex items-center backdrop-filter backdrop-blur-sm justify-center `}>
-				<div className="w-[500px] h-fit bg-white px-10 py-4 rounded">
+				<div className="w-[800px] h-fit bg-white px-10 py-4 rounded">
 					<div className="absolute">
 						<img src="/images/leftHeart.png" alt="" className="opacity-10" />
 					</div>
-					<h1 className="font-mainFont text-3xl">My Dearest Crush,</h1>
-					<p className="font-mainFont text-2xl indent-5">
+					<h1 className="font-mainFont text-2xl">My Dearest Crush,</h1>
+					<p className="font-mainFont text-lg indent-5 pt-4 text-justify">
 						As I sit down to pen this letter, my heart swells with the warmth your
 						presence brings into my life. In every shared smile, stolen glance, and
 						tender moment, I find a depth of connection that words often struggle to
@@ -35,7 +35,7 @@ export const YesModal = ({ closeButton }) => {
 						grounds me, the compass that guides me, and the light that illuminates my
 						path. This message is by GPT btw.
 					</p>
-					<h1 className="text-2xl font-mainFont">
+					<h1 className="text-2xl font-mainFont pt-4">
 						Forever yours, Trikk <span className="text-sm">💋</span>{" "}
 					</h1>
 					<div className="flex items-end justify-end">
